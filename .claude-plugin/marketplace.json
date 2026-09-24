@@ -59,6 +59,15 @@
             "description": "Translate Zod validation errors into the active vue-i18n locale with @volverjs/zod-vue-i18n.",
             "homepage": "https://github.com/volverjs/zod-vue-i18n",
             "license": "MIT"
+        },
+        {
+            "name": "volverjs-auth-vue",
+            "source": { "source": "github", "repo": "volverjs/auth-vue" },
+            "strict": false,
+            "skills": ["./skills/"],
+            "description": "OAuth2 / OpenID Connect authentication for Vue 3 with @volverjs/auth-vue.",
+            "homepage": "https://github.com/volverjs/auth-vue",
+            "license": "MIT"
         }
     ]
 }

@@ -12,6 +12,7 @@ so the skill ships with the library and this repository only lists them.
 | `volverjs-query-vue` | `@volverjs/query-vue` |
 | `volverjs-form-vue` | `@volverjs/form-vue` |
 | `volverjs-zod-vue-i18n` | `@volverjs/zod-vue-i18n` |
+| `volverjs-auth-vue` | `@volverjs/auth-vue` |
 
 ## Install
 
