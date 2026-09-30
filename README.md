@@ -40,8 +40,10 @@ Agents other than Claude Code install the same skills with the
 
 1. The package keeps its skill in `skills/<skill-name>/SKILL.md` on `main`. A skill on a
    development branch would describe an API that is not released yet.
-2. Add an entry to `.claude-plugin/marketplace.json` with a `github` source, `strict: false`
-   and `skills: ["./skills/"]`. A repository with its own `.claude-plugin/plugin.json`, like
+2. Add an entry to `.claude-plugin/marketplace.json` with a `github` source pinned to
+   `"ref": "main"`, `strict: false` and `skills: ["./skills/"]`. Without the `ref` the source
+   reads the default branch, which is `develop` in the Volver repositories.
+   A repository with its own `.claude-plugin/plugin.json`, like
    the monorepo starter, gets neither: its manifest declares the skills, and `strict: false`
    next to it fails to load with `conflicting manifests`.
 3. Check it: `claude plugin validate --strict .`. The validation does not fetch `github`

@@ -8,7 +8,7 @@
     "plugins": [
         {
             "name": "volverjs-style",
-            "source": { "source": "github", "repo": "volverjs/style" },
+            "source": { "source": "github", "repo": "volverjs/style", "ref": "main" },
             "strict": false,
             "skills": ["./skills/"],
             "description": "Style HTML and Vue templates with the @volverjs/style design system: BEM components, utilities, tokens and the dark theme.",
@@ -17,7 +17,7 @@
         },
         {
             "name": "volverjs-ui-vue",
-            "source": { "source": "github", "repo": "volverjs/ui-vue" },
+            "source": { "source": "github", "repo": "volverjs/ui-vue", "ref": "main" },
             "strict": false,
             "skills": ["./skills/"],
             "description": "Build Vue 3 interfaces with @volverjs/ui-vue, the component library of the Volver design system.",
@@ -26,7 +26,7 @@
         },
         {
             "name": "volverjs-data",
-            "source": { "source": "github", "repo": "volverjs/data" },
+            "source": { "source": "github", "repo": "volverjs/data", "ref": "main" },
             "strict": false,
             "skills": ["./skills/"],
             "description": "Consume REST APIs with @volverjs/data: HttpClient, RepositoryHttp and UrlBuilder.",
@@ -35,7 +35,7 @@
         },
         {
             "name": "volverjs-query-vue",
-            "source": { "source": "github", "repo": "volverjs/query-vue" },
+            "source": { "source": "github", "repo": "volverjs/query-vue", "ref": "main" },
             "strict": false,
             "skills": ["./skills/"],
             "description": "Data fetching and mutations in Vue 3 with @volverjs/query-vue store repositories.",
@@ -44,7 +44,7 @@
         },
         {
             "name": "volverjs-form-vue",
-            "source": { "source": "github", "repo": "volverjs/form-vue" },
+            "source": { "source": "github", "repo": "volverjs/form-vue", "ref": "main" },
             "strict": false,
             "skills": ["./skills/"],
             "description": "Vue 3 forms built from a Zod schema with @volverjs/form-vue.",
@@ -53,7 +53,7 @@
         },
         {
             "name": "volverjs-zod-vue-i18n",
-            "source": { "source": "github", "repo": "volverjs/zod-vue-i18n" },
+            "source": { "source": "github", "repo": "volverjs/zod-vue-i18n", "ref": "main" },
             "strict": false,
             "skills": ["./skills/"],
             "description": "Translate Zod validation errors into the active vue-i18n locale with @volverjs/zod-vue-i18n.",
@@ -62,7 +62,7 @@
         },
         {
             "name": "volverjs-auth-vue",
-            "source": { "source": "github", "repo": "volverjs/auth-vue" },
+            "source": { "source": "github", "repo": "volverjs/auth-vue", "ref": "main" },
             "strict": false,
             "skills": ["./skills/"],
             "description": "OAuth2 / OpenID Connect authentication for Vue 3 with @volverjs/auth-vue.",
